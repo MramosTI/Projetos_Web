@@ -27,3 +27,160 @@ header nav a{
     padding: 32px;
     text-decoration: none;
 }
+
+#inicio{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    /*topo, direota, baixo esquerda*/
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+h1, h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo{
+    line-height: 150%;
+    margin-bottom: 32px;
+
+}
+
+.botao{
+    background-color: #ff725e;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 16px 32px; /*vertical e horizontal*/
+
+}
+
+.botao-trasnparente{
+    background-color: transparent;
+    color: #ff725e;
+    text-underline-offset: 4px;
+    border-radius: 10px;
+    padding: 16px 32px; /*vertical e horizontal*/
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#clinica{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+
+}
+
+#clinica li{
+    margin-bottom: 16px;
+    margin-left: 32px;
+
+}
+
+#farmacia{
+    padding: 64px 80px;
+    text-align: center;
+}
+
+#farmacia img{
+    margin: 64px auto;
+
+}
+#farmacia .paragrafo{
+    max-width: 950px;
+    margin: 0 auto;
+
+}
+
+#duvidas{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+
+}
+
+.duvida{
+    position: relative;
+}
+
+#duvidas h3{
+    border: 2px solid #ff725e;
+    border-radius: 10px;
+    cursor: pointer; 
+    padding: 25px;
+    height: 80px;
+}
+
+
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo{
+    border-right: 1px solid #ff725e;
+    border-bottom: 1px solid #ff725e;
+    border-left: 1px solid #ff725e;
+    border-radius: 0 0 10px 10px;
+    margin-top: -8px;
+    padding: 24px;
+}
+
+footer{
+    background-color: rgba(255, 125, 108, 0.25);
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+}
+
+footer div img, .footer-titulo{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+footer nav a{
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+footer p{
+    margin-bottom: 16px;
+}
+
+footer p a{
+    color: #263138;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px; 
+}
+
+#copyright{
+    background-color: #ff725e;
+    text-align: center;
+    color: white;
+    padding: 8px;
+
+}
+
+#copyright a{
+    color: #263138;
+    text-decoration: none;
+}
+
