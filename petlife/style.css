@@ -115,6 +115,8 @@ h1, h2{
     position: relative;
 }
 
+
+
 #duvidas h3{
     border: 2px solid #ff725e;
     border-radius: 10px;
@@ -136,6 +138,17 @@ h1, h2{
     border-left: 1px solid #ff725e;
     border-radius: 0 0 10px 10px;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    
+}
+
+.duvida.ativa .paragrafo{
+    background-color: #fabbb3;
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
 }
 
