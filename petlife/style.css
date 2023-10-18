@@ -142,11 +142,12 @@ h1, h2{
     height: 0;
     opacity: 0;
     overflow: hidden;
+    transition: .2s;
     
 }
 
 .duvida.ativa .paragrafo{
-    background-color: #fabbb3;
+    background-color: rgba(255, 125, 108, 0.25);
     height: fit-content;
     opacity: 1;
     padding: 24px;
